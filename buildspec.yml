@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Hello
+  build:
+    commands:
+      - echo How Are You !
+artifacts:
+  files:
+    - '**/*'
