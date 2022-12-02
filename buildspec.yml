@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Hello
+      - echo build python code
   build:
     commands:
-      - echo How Are You !
+      - echo python
 artifacts:
   files:
     - '**/*'
