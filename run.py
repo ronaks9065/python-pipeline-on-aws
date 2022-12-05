@@ -2,6 +2,9 @@ from flask import Flask
 from flask import Flask
 app = Flask(__name__)
 
+app = Flask(__name__)
+app = Flask(__name__)
+
 @app.route('/')
 def hello_world():
     return '<h1>Python App Up and Running.. R</h1>'
